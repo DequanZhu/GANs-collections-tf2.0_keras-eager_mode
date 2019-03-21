@@ -6,8 +6,8 @@ import numpy as np
 import tensorflow as tf
 import scipy.misc
 from tensorflow import keras
-from ops2 import *
-from utils1 import *
+from ops import *
+from utils import *
 # from tensorflow.keras import layers
 
 
