@@ -3,7 +3,8 @@
 
 
 # How to use
-> pip3 install requirements.txt. Anaconda virtual enviroment is recommended.
+> [Install tensorflow2.0-aplha version.](https://tensorflow.google.cn/install/pip)
+> Anaconda virtual enviroment is recommended.
 
 # TODO
 - [x] Implement CGAN model entirely based on tf2.0-keras API.
