@@ -5,7 +5,7 @@
 # How to use
 > [Install tensorflow2.0-aplha version.](https://tensorflow.google.cn/install/pip)
 > Anaconda virtual enviroment is recommended.
-> To support GPU mode,please refer to [this](https://tensorflow.google.cn/guide/using_gpu)(I haven't validated on GPU beacuse have no GPU > to use).
+> To support GPU mode,please refer to [this](https://tensorflow.google.cn/guide/using_gpu)(I haven't validated on GPU beacuse have no GPU  to use).
 
 # TODO
 - [x] To implement ACGAN, EBGAN, BEGAN, etc.
