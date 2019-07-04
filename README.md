@@ -9,5 +9,5 @@
 
 # TODO
 - [x] To implement ACGAN, EBGAN, BEGAN, etc.
-- [ ] Support GPU run.
+- [x] Support GPU run.
 
