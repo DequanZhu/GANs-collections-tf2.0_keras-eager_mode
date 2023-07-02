@@ -1,6 +1,7 @@
 import tensorflow as tf 
 import numpy as np
-import scipy.misc
+# import scipy.misc
+import imageio
 import os
 
 def load_mnist_data(batch_size=64,datasets='mnist',model_name=None):
@@ -38,8 +39,10 @@ def save_images(images, size, image_path):
 
 
 def imsave(images, size, path):
-    image = np.squeeze(merge(images, size))
-    return scipy.misc.imsave(path, image)
+    image = np.squeeze(merge(images, size)) * 255 # imageio.imwrite 不支持将 0-1 之间的数自动 ✖️255 了
+    image = image
+    image = image.astype(np.uint8)
+    return imageio.imwrite(path, image)   # 更新 scipy.misc.imsave 函数为 imageio.imwrite
 
 
 def merge(images, size):
